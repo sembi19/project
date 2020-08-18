@@ -25,5 +25,26 @@
 
 // alert(`Hello, ${user}`);
 
+var numberOfFilms;
 
+numberOfFilms = +prompt("How many a films are you watch?", '');
 
+console.log(numberOfFilms);
+
+const personalMovieDB = {
+    count: numberOfFilms,
+    movies: {},
+    actors: {},
+    genres: [],
+    privat: false,
+};
+
+const a = prompt("What is  the last movie you have watched?", ''),
+      b = prompt("How do you rate it?", ''),
+      c = prompt("What is  the last movie you have watched?", ''),
+      d = prompt("How do you rate it?", '');
+
+personalMovieDB.movies[a] = b;
+personalMovieDB.movies[c] = d;
+
+console.log(personalMovieDB);
