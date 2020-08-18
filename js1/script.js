@@ -17,10 +17,13 @@
 
 // console.log(typeof(answer));
 
-const category = 'toys';
+// const category = 'toys';
 
-console.log(`https:://someurl.com/${category}/5`);
+// console.log(`https:://someurl.com/${category}/5`);
 
-const user = 'Ivan';
+// const user = 'Ivan';
 
-alert(`Hello, ${user}`);
+// alert(`Hello, ${user}`);
+
+
+
